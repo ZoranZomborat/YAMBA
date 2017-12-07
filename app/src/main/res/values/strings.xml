@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">YAMBA</string>
+    <string name="hint_status">What\'s going on?</string>
+    <string name="button_tweet">Tweet</string>
+    <string name="text_count">140</string>
+    <string name="username_summary">Enter username</string>
+    <string name="username">student</string>
+    <string name="password">password</string>
+    <string name="password_summary">Enter password</string>
+    <string name="action_settings">Action Settings</string>
+    <string name="item_title">Item title</string>
+    <string name="tweet">Tweet</string>
+    <string name="refresh">Refresh</string>
+    <string name="maxLength">140</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

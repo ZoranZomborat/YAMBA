@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditTextPreference
+        android:key="username"
+        android:summary="@string/username_summary"
+        android:title="@string/username"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <EditTextPreference
+        android:inputType="textPassword"
+        android:title="@string/password"
+        android:key="password" android:summary="@string/password_summary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</PreferenceScreen>

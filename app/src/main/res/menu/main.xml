@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android2="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android2:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_tweet"
+        android:icon="@android:drawable/ic_menu_add"
+        android2:showAsAction="ifRoom"
+        android:title="@string/tweet"/>
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android2:showAsAction="ifRoom"
+        android:title="@string/refresh"/>
+
+</menu>
+
+
