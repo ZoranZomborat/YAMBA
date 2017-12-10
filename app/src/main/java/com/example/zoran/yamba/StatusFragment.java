@@ -59,8 +59,7 @@ public class StatusFragment extends Fragment implements OnClickListener {
 
             @Override
             public void afterTextChanged(Editable s) {
-                String strLength = getString(R.string.maxLength);
-                int maxLength =  new Integer(strLength);
+                int maxLength =  140;
                 int count = maxLength - editStatus.length();
                 textCount.setText(Integer.toString(count));
                 textCount.setTextColor(Color.GREEN);

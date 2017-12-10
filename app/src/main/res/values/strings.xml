@@ -11,6 +11,7 @@
     <string name="item_title">Item title</string>
     <string name="tweet">Tweet</string>
     <string name="refresh">Refresh</string>
+    <string name="stop_refresh">Stop Refresh</string>
     <string name="maxLength">140</string>
 
     <!-- TODO: Remove or change this placeholder text -->

@@ -39,7 +39,10 @@ public class StatusActivity extends AppCompatActivity {
                 startActivity(new Intent(this, StatusActivity.class));
                 return true;
             case R.id.action_refresh:
-                startActivity(new Intent(this, MainActivity.class));
+                startService(new Intent(this, RefreshService.class));
+                return true;
+            case R.id.action_purge:
+                stopService(new Intent(this, RefreshService.class));
                 return true;
             default:
                 return false;

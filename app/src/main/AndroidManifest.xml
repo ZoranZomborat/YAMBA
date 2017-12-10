@@ -12,6 +12,11 @@
         android:theme="@style/AppTheme">
         <activity android:name=".StatusActivity">
         </activity>
+        <service android:name=".RefreshService"/>
+        <provider
+            android:name="com.example.zoran.yamba.StatusProvider"
+            android:authorities="com.example.zoran.yamba.StatusProvider"
+            android:exported="false" />
         <activity
             android:name=".SettingsActivity"
             android:label="@string/action_settings">
